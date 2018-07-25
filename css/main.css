@@ -6,7 +6,7 @@
 
 body {
   padding-top: 54px;
-  font-family: Axiforma, sans-serif;
+  font-family: 'montserrat', Axiforma, sans-serif;
 }
 
 /*PARCLES*/
@@ -158,8 +158,24 @@ form.contact input {
 
 /*Slider*/
 
-.testimonial {
+.clients {
   padding: 20px 0 0 10px;
+}
+.client-img {
+  width: 55%;
+  padding-top: 30px;
+}
+.clients .client {
+  display: none;
+}
+
+
+.phi {
+  width: 25%;
+  padding-top: 5px;
+}
+.vaisen {
+  padding-top: 8px;
 }
 
 /* Slideshow container */
@@ -171,7 +187,7 @@ form.contact input {
 /* Slides */
 .mySlides {
   display: none;
-  padding: 80px;
+  padding: 25px 0 80px 0;
   text-align: center;
 }
 

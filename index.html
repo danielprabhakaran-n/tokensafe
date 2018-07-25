@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
@@ -34,18 +35,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home
+              <a class="nav-link" href="#header">Home
                 <span class="sr-only">(current)</span>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#product">Product</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#clients">Clients</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -53,7 +54,7 @@
     </nav>
 
     <!-- Header with Background Image -->
-    <header class="business-header particle">
+    <header id="header" class="business-header particle">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
@@ -118,7 +119,7 @@
     </section>
     <!-- /.row -->
 
-    <section class="section blue-bg">
+    <section id="product" class="section blue-bg">
       <div class="container">
         <div class="row">
           <div class="col-md-8 cta">
@@ -182,26 +183,97 @@
       </div>
     </section>
 
-    <section class="section">
-      <div class="">
-          
-          <div class="testimonial slideshow-container">
-            <h2 class="text-center">Testimonials</h2>
-            <div class="mySlides">
-              <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
-              <p class="author">- John Keats</p>
+    <section id="clients" class="section">
+          <div class="clients slideshow-container">
+            <h2 class="text-center">Clients</h2>
+            <div class="container">
+              <div class="mySlides">
+                <div class="row">
+                  <div class="col-md-3">
+                    <img src="img/client_beluga.png" class="client-img">
+                    <div class="client">
+                      BELUGA PAY
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/client_phi.png" class="client-img phi">
+                    <div class="client">
+                      PHI TECHNOLOGIES
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/client_vaisen.png" class="client-img vaisen">
+                    <div class="client">
+                      VAISEN
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/client_linked-world.png" class="client-img">
+                    <div class="client">
+                      LINKED.WORLD
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="mySlides row">
+                <div class="row">
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        client 5
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 6
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 7
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 8
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              
+              <div class="mySlides row">
+                <div class="row">
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 9
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 10
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 11
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <img src="#" class="client-img">
+                      <div class="client">
+                        Client 12
+                      </div>
+                    </div>
+                </div>
+              </div>
             </div>
-            
-            <div class="mySlides">
-              <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
-              <p class="author">- Ernest Hemingway</p>
-            </div>
-            
-            <div class="mySlides">
-              <q>I have not failed. I've just found 10,000 ways that won't work.</q>
-              <p class="author">- Thomas A. Edison</p>
-            </div>
-            
             <a class="prev" onclick="plusSlides(-1)">❮</a>
             <a class="next" onclick="plusSlides(1)">❯</a>
               
@@ -212,11 +284,9 @@
             <span class="dot" onclick="currentSlide(2)"></span> 
             <span class="dot" onclick="currentSlide(3)"></span> 
           </div>
-
-      </div>
     </section>
 
-    <section class="section blue-bg">
+    <section id="contact" class="section blue-bg">
         <div class="container contact">
           <div class="row ts-row">
             <div class="col-md-8">
@@ -294,6 +364,7 @@
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <script src="js/jquery.bundle.js"></script>
+    <script src="js/smooth.js"></script>
 
     <script src="js/main.js"></script>
   </body>
